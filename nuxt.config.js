@@ -4,7 +4,7 @@ const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
       router: {
-        base: '/handai_shinkan_2025/',
+        base: '/handai_shinkan_2026/',
       },
     }
     : {}
@@ -148,3 +148,4 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 }
+
