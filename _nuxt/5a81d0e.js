@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{433:function(n,c,e){n.exports=e.p+"img/gakuren-2026-2.e19c3fc.jpg"},597:function(n,c,e){"use strict";e.r(c);var t=e(433),o=e.n(t);c.default={name:"GakuRecSec",data:function(){return{imgSrc:o.a}}}}}]);
