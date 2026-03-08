@@ -14,7 +14,15 @@ const faviconPath =
     : '/favicon.ico'
 
 export default {
-  ...routerBase,
+  // ★ここを書き換える
+  router: {
+    base: '/handai_shinkan_2026/',
+  },
+
+  // ...routerBase,  <-- これは削除またはコメントアウト
+  target: 'static',
+  //export default {
+  //  ...routerBase,
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
