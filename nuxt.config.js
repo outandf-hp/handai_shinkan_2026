@@ -14,12 +14,10 @@ const faviconPath =
     : '/favicon.ico'
 
 export default {
-  // ★ここを書き換える
   router: {
     base: '/handai_shinkan_2026/',
   },
 
-  // ...routerBase,  <-- これは削除またはコメントアウト
   target: 'static',
   //export default {
   //  ...routerBase,
