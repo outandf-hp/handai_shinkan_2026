@@ -13,7 +13,7 @@ export default {
       ],
     },
     copyrightInfo: {
-      year: 2022,
+      year: 2026,
       owner: 'Sample Club',
     },
   },

@@ -3,10 +3,10 @@ import colors from 'vuetify/lib/util/colors'
 const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
-      router: {
-        base: '/handai_shinkan_2026/',
-      },
-    }
+        router: {
+          base: '/handai_shinkan_2026/',
+        },
+      }
     : {}
 const faviconPath =
   process.env.DEPLOY_ENV === 'GH_PAGES'
@@ -22,7 +22,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s',
-    title: '大阪大学陸上部新歓ページ2025',
+    title: '大阪大学陸上部新歓ページ2026',
     htmlAttrs: {
       lang: 'en',
     },
@@ -45,7 +45,7 @@ export default {
       {
         hid: 'og:site_name',
         property: 'og:site_name',
-        content: '大阪大学陸上部新歓ページ2025',
+        content: '大阪大学陸上部新歓ページ2026',
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
@@ -85,7 +85,7 @@ export default {
   },
   // Generate configuration
   generate: {
-    dir: 'docs' // 生成された静的ファイルを配置するディレクトリ
+    dir: 'docs', // 生成された静的ファイルを配置するディレクトリ
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
@@ -117,10 +117,13 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@/modules/custom-generate.js',
-    ['@nuxtjs/google-gtag', {
-      id: 'G-N639GBT5J4',
-      debug: false,
-    }]
+    [
+      '@nuxtjs/google-gtag',
+      {
+        id: 'G-N639GBT5J4',
+        debug: false,
+      },
+    ],
   ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
@@ -148,4 +151,3 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 }
-
