@@ -13,7 +13,7 @@ export default {
           // imgSrc2: "require('@/assets/gonuxt/img/sample01.jpg')",
         },
         {
-          name: '原 萌琉',
+          name: '原 萌琉る',
           txt: '女子主将',
           imgSrc: require('@/assets/member-img/女子主将-2026.jpg'),
           // txt2: '初めまして，休日は本を読んだり，散歩をしたりします．',
@@ -104,3 +104,4 @@ export default {
     },
   },
 }
+
