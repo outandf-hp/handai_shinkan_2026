@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{598:function(n,c,t){"use strict";t.r(c),c.default={name:"ContactSection",data:function(){return{cards:[{imgSrc:t(124),link:"/dev"},{imgSrc:t(124),link:"/"},{imgSrc:t(124),link:"/"},{imgSrc:t(124),link:"/"}]}}}}}]);
